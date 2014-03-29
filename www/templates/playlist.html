@@ -1,0 +1,12 @@
+<ion-view title="Playlist">
+	<ion-content class="has-header">
+		<h1>Playlist</h1>
+		<div class="card" ng-show="error!=''">
+			<div class="item item-text-wrap">
+				<p ng-model="error">{{error}}</p>
+			</div>
+		</div>
+		<p>id: {{playlist.id}}</p>
+		<p>title: {{playlist.title}}</p>
+	</ion-content>
+</ion-view>
